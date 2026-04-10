@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-groq
+langchain-chroma
+sentence-transformers
+chromadb
+rank-bm25
+fastapi
+uvicorn
+streamlit
+sqlalchemy
+pypdf
+python-dotenv
+ragas
+datasets
+pandas
