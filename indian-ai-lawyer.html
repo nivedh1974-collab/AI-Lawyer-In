@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Indian AI Lawyer — Case Study</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-fixed": "#001849",
+                        "primary-fixed": "#dae1ff",
+                        "on-surface": "#1c1b1b",
+                        "secondary": "#425ca0",
+                        "on-secondary-container": "#294487",
+                        "on-background": "#1c1b1b",
+                        "on-primary-container": "#f8f7ff",
+                        "surface-container-highest": "#e5e2e1",
+                        "surface-bright": "#fcf9f8",
+                        "on-primary": "#ffffff",
+                        "background": "#fcf9f8",
+                        "on-secondary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-low": "#f6f3f2",
+                        "surface-container": "#f0edec",
+                        "on-primary-fixed-variant": "#003fa4",
+                        "surface-container-high": "#ebe7e7",
+                        "inverse-surface": "#313030",
+                        "surface": "#fcf9f8",
+                        "inverse-on-surface": "#f3f0ef",
+                        "surface-variant": "#e5e2e1",
+                        "primary": "#0050cb",
+                        "surface-tint": "#0054d6",
+                        "primary-container": "#0066ff",
+                        "outline-variant": "#c2c6d8",
+                        "outline": "#727687",
+                        "on-surface-variant": "#424656",
+                        "inverse-primary": "#b3c5ff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            },
+        }
+</script>
+<style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4 { font-family: 'Manrope', sans-serif; }
+        .glass-nav { backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); }
+        .text-wall { letter-spacing: -0.02em; }
+        .premium-shadow { box-shadow: 0 32px 64px -12px rgba(28, 27, 27, 0.08); }
+</style>
+</head>
+<body class="bg-background text-on-surface">
+
+<!-- NAV -->
+<nav class="fixed top-0 w-full z-50 bg-stone-50/80 backdrop-blur-xl shadow-sm">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-4">
+<a href="index.html" class="font-headline font-extrabold tracking-tighter text-2xl text-stone-900 hover:text-blue-600 transition-colors duration-200">Indian AI Lawyer</a>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-stone-500 hover:text-blue-600 font-headline tracking-tight font-medium text-sm transition-colors duration-200" href="index.html">Home</a>
+<a class="text-stone-500 hover:text-blue-600 font-headline tracking-tight font-medium text-sm transition-colors duration-200" href="index.html#projects">Projects</a>
+<a class="text-stone-500 hover:text-blue-600 font-headline tracking-tight font-medium text-sm transition-colors duration-200" href="index.html#experience">Experience</a>
+<a class="text-stone-500 hover:text-blue-600 font-headline tracking-tight font-medium text-sm transition-colors duration-200" href="index.html#about">About</a>
+<a class="text-stone-500 hover:text-blue-600 font-headline tracking-tight font-medium text-sm transition-colors duration-200" href="index.html#contact">Contact</a>
+</div>
+</div>
+</nav>
+
+<main class="pt-32">
+
+<!-- HERO -->
+<section class="max-w-7xl mx-auto px-8 mb-40 text-center">
+<h1 class="text-6xl md:text-8xl font-extrabold text-wall mb-8 tracking-tighter text-on-surface">Indian AI Lawyer</h1>
+<p class="text-xl md:text-2xl text-on-surface-variant max-w-3xl mx-auto mb-16 leading-relaxed">
+  An AI system that answers Indian legal questions with citations from real law documents — built for accuracy, not just answers.
+</p>
+<div class="relative w-full max-w-4xl mx-auto bg-surface-container-low rounded-[2rem] overflow-hidden premium-shadow">
+  <div class="p-6 flex items-center justify-center" style="min-height: 400px;">
+    <!-- Replace src with your HF Spaces screenshot -->
+    <p class="text-on-surface-variant text-sm">[ Add screenshot of the live HF Spaces app here ]</p>
+  </div>
+</div>
+</section>
+
+<!-- CONTEXT -->
+<section class="bg-surface-container-low py-32">
+<div class="max-w-7xl mx-auto px-8">
+  <div class="grid md:grid-cols-2 gap-20 items-start mb-20">
+    <div>
+      <span class="text-primary font-bold tracking-widest uppercase text-xs mb-4 block">Context</span>
+      <h2 class="text-4xl md:text-5xl font-bold text-wall mb-8 leading-tight">Helping people understand their rights.</h2>
+    </div>
+    <div class="space-y-4 pt-2">
+      <ul class="space-y-4">
+        <li class="flex items-start gap-3">
+          <span class="mt-2 w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+          <span class="text-on-surface-variant leading-relaxed">Most Indians cannot afford a lawyer for basic legal questions</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-2 w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+          <span class="text-on-surface-variant leading-relaxed">Generic AI gives plausible-sounding but uncited answers — dangerous for legal context</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-2 w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+          <span class="text-on-surface-variant leading-relaxed">Legal documents like BNS 2023 are public but inaccessible to common people</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="mt-2 w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+          <span class="text-on-surface-variant leading-relaxed">No free tool exists that grounds Indian law answers in actual source documents</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- TARGET USERS -->
+  <div>
+    <span class="text-primary font-bold tracking-widest uppercase text-xs mb-8 block">Target Users</span>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-surface-container-lowest rounded-[2rem] p-10 premium-shadow">
+        <div class="flex items-center gap-3 mb-5">
+          <span class="material-symbols-outlined text-primary text-3xl">person</span>
+          <h3 class="text-2xl font-bold">Citizens</h3>
+        </div>
+        <p class="text-on-surface-variant leading-loose">Urban and rural Indians who need quick, reliable answers to legal questions — about rights, penalties, or procedures — but cannot afford professional legal consultation.</p>
+      </div>
+      <div class="bg-surface-container-lowest rounded-[2rem] p-10 premium-shadow">
+        <div class="flex items-center gap-3 mb-5">
+          <span class="material-symbols-outlined text-primary text-3xl">menu_book</span>
+          <h3 class="text-2xl font-bold">Law Students & Researchers</h3>
+        </div>
+        <p class="text-on-surface-variant leading-loose">Students and researchers who need to quickly look up sections, cross-reference acts, and verify citations across BNS, BNSS, BSA, and the Constitution.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- PROBLEM -->
+<section class="py-32">
+<div class="max-w-7xl mx-auto px-8 grid md:grid-cols-2 gap-20 items-start">
+<div class="order-2 md:order-1 space-y-12">
+<div>
+<span class="text-primary font-bold tracking-widest uppercase text-xs mb-4 block">Problem</span>
+<h2 class="text-4xl font-bold text-wall mb-12">Legal AI is broken.</h2>
+
+<div class="space-y-10">
+  <div>
+    <p class="font-bold text-on-surface mb-4">Citizens — Current Issues</p>
+    <ul class="space-y-3">
+      <li class="flex items-start gap-3">
+        <span class="mt-2 w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+        <span class="text-on-surface-variant leading-relaxed">AI tools hallucinate legal answers with no source citations</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="mt-2 w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+        <span class="text-on-surface-variant leading-relaxed">People cannot verify if an AI answer is actually from law</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="mt-2 w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+        <span class="text-on-surface-variant leading-relaxed">Existing legal apps are expensive or require lawyer subscription</span>
+      </li>
+      <li class="flex items-start gap-3">
+        <span class="mt-2 w-2 h-2 rounded-full bg-primary flex-shrink-0"></span>
+        <span class="text-on-surface-variant leading-relaxed">New laws like BNS 2023 replaced IPC but most tools still reference outdated acts</span>
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+<div class="order-1 md:order-2 rounded-xl overflow-hidden aspect-square bg-surface-container-low flex items-center justify-center">
+  <span class="material-symbols-outlined text-8xl text-outline">gavel</span>
+</div>
+</div>
+</section>
+
+<!-- INSIGHTS -->
+<section class="bg-on-surface text-surface py-32">
+<div class="max-w-7xl mx-auto px-8 text-center">
+<span class="text-primary-container font-bold tracking-widest uppercase text-xs mb-4 block">Insights</span>
+<h2 class="text-4xl md:text-6xl font-bold text-wall mb-8">What I realized.</h2>
+<p class="text-xl text-stone-400 max-w-2xl mx-auto leading-relaxed">
+  The problem isn't access to AI — it's trust. A legal answer without a citation is just an opinion. What people need is an AI that shows its work: exactly which act, which section, which page.
+</p>
+</div>
+</section>
+
+<!-- THE IDEA -->
+<section class="py-32">
+<div class="max-w-7xl mx-auto px-8">
+<div class="mb-20">
+  <span class="text-primary font-bold tracking-widest uppercase text-xs mb-4 block">The Idea</span>
+  <h2 class="text-5xl font-bold text-wall">Ground every answer in law.</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+  <!-- Card 1 -->
+  <div class="md:col-span-1 bg-surface-container-low p-10 rounded-[2rem]">
+    <div class="text-4xl mb-6">⚖️</div>
+    <h3 class="text-2xl font-bold mb-4">Citation Enforcement</h3>
+    <p class="text-on-surface-variant">AI explicitly refuses to answer if source documents don't support it. No hallucination.</p>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="bg-primary text-white p-10 rounded-[2rem]">
+    <div class="text-4xl mb-6">📄</div>
+    <h3 class="text-2xl font-bold mb-4">Real Law Documents</h3>
+    <p class="text-white/80">Answers drawn from BNS 2023, BNSS 2023, BSA 2023, Constitution of India, and Kerala Motor Vehicles Act.</p>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="bg-surface-container-high p-10 rounded-[2rem]">
+    <div class="text-4xl mb-6">🔍</div>
+    <h3 class="text-2xl font-bold mb-4">Instant Discovery</h3>
+    <p class="text-on-surface-variant">Ask in plain English. Get cited answers in seconds. No legal jargon needed.</p>
+  </div>
+
+</div>
+</div>
+</section>
+
+<!-- MVP -->
+<section class="bg-surface-container-low py-32">
+<div class="max-w-7xl mx-auto px-8 text-center">
+  <span class="text-primary font-bold tracking-widest uppercase text-xs mb-4 block">MVP</span>
+  <h2 class="text-4xl md:text-5xl font-bold text-wall mb-16">Start simple.</h2>
+  <div class="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-24">
+
+    <div class="flex flex-col items-center">
+      <div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center mb-6 premium-shadow">
+        <span class="material-symbols-outlined text-primary text-3xl">edit_note</span>
+      </div>
+      <span class="font-bold text-xl">Ask</span>
+      <p class="text-sm text-on-surface-variant mt-2">Type any legal question in plain language</p>
+    </div>
+
+    <div class="hidden md:block w-20 h-px bg-outline-variant"></div>
+
+    <div class="flex flex-col items-center">
+      <div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center mb-6 premium-shadow">
+        <span class="material-symbols-outlined text-primary text-3xl">search</span>
+      </div>
+      <span class="font-bold text-xl">Retrieve</span>
+      <p class="text-sm text-on-surface-variant mt-2">System finds relevant law sections from real documents</p>
+    </div>
+
+    <div class="hidden md:block w-20 h-px bg-outline-variant"></div>
+
+    <div class="flex flex-col items-center">
+      <div class="w-20 h-20 bg-surface-container-lowest rounded-full flex items-center justify-center mb-6 premium-shadow">
+        <span class="material-symbols-outlined text-primary text-3xl">gavel</span>
+      </div>
+      <span class="font-bold text-xl">Answer</span>
+      <p class="text-sm text-on-surface-variant mt-2">Get a cited response with Act name and section number</p>
+    </div>
+
+  </div>
+</div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="w-full py-12 mt-auto bg-stone-100">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-8 gap-4">
+<a href="index.html" class="font-headline font-bold text-stone-900 hover:text-blue-600 transition-colors">← Back to Portfolio</a>
+<span class="text-stone-500 font-headline text-xs tracking-wide uppercase">© 2024 Nivedh Mohanan. Designed with Editorial Precision.</span>
+</div>
+</footer>
+
+</body>
+</html>
